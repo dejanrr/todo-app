@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+input {
+  box-sizing: border-box;
+  width: 40%;
+  padding: 8px 10px;
+  font-size: 18px;
+  border: 1px solid #333;
+  outline: none;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.app-title {
+  width: 100%;
+  font-weight: 900;
+  font-size: 60px;
+  float: left;
+}
+
+.header {
+  background-color: #add8e6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+form {
+  padding-bottom: 70px;
+}
+
+.sub-title {
+  width: 70%;
+  float: left;
+  font-weight: 900;
+}
+
+.table {
+  text-align: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.todo-ul {
+  text-decoration: none;
+  list-style: none;
+  border: 1px solid #333;
+  font-size: 22px;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  background-color: #ededed;
+}
+
+.todo-ul button {
+  float: right;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.todo-ul li {
+  justify-content: space-between;
+  padding: 10px;
+}
